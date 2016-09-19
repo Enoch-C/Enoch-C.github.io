@@ -1,4 +1,4 @@
-title: Notes On Creating A Hexo Theme 
+title: Notes On Creating A Hexo Theme
 date: 2016-01-02
 tags:
 - Programming
@@ -21,7 +21,7 @@ Instructions](http://linoxide.com/ubuntu-how-to/install-node-js-ubuntu).
 
 Update NPM: `npm install npm@latest -g`
 
-Hexo: why can't you use helper functions in source code? 
+Hexo: why can't you use helper functions in source code?
 This should be in docs.
 
 ## Creating a Custom Index File in Hexo
@@ -66,7 +66,7 @@ One of the things I really discovered too late is the "Scripts" directory in the
 theme folder.  In Hexo, the various plugins drive the structure of the site, as
 opposed to the placement of different files and directories, as in Jekyll.  The
 plugins programatically create folder structure, etc, where in Jekyll I mostly
-used the liquid markup to structure the site.  
+used the liquid markup to structure the site.
 
 The problem is, then, that the user wants to extend hexo to do some sort of
 custom thing.  If one had to publish a new plugin, that'd be too much work.  But
